@@ -33,6 +33,8 @@ const SetPomodoro = () => {
                     long: parseInt(value)
                 })
                 break;
+            default: 
+                console.log('Óut of bound!')
         }
     }
     const handleSubmit = e => {
